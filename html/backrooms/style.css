@@ -1,0 +1,6 @@
+
+html, body { width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden; background: #000; color: #fff; }
+#unity-container, #unity-canvas, canvas { width: 100%; height: 100%; position: absolute; left: 0; top: 0; }
+#unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none; z-index: 10; }
+#unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; background: #272727; }
+#unity-progress-bar-full { width: 0%; height: 100%; background: #fff; }

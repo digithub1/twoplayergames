@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<script>
+window.adsbygoogle = window.adsbygoogle || [];
+window.adBreak = window.adConfig = function(o) { if(o && typeof o.beforeAd === 'function') try{o.beforeAd();}catch(e){} if(o && typeof o.adBreakDone === 'function') try{o.adBreakDone();}catch(e){} if(o && typeof o.onReady === 'function') try{o.onReady();}catch(e){} };
+window.initSdk = window.InitSDKJs = function() { return Promise.resolve(true); };
+window.loadRewarded = function() {};
+window.showRewarded = function(cb) { if(typeof cb === 'function') cb(true); };
+window.showInterstitial = function() {};
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Mini Car Racing</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.javascript"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
+    </script>
+</head>
+<body>
+<div class="webgl-content">
+    <div id="gameContainer" style="width: 900px; height: 600px"></div>
+</div>
+<div class="simmer">Mini Cars v1.0 <a href="https://www.twoplayergames.org/?utm_source=Html5Game&utm_medium=MiniCars" target="_blank">twoplayergames.org</a></div>
+<script src="TemplateData/responsive.javascript"></script>
+</body>
+</html>
